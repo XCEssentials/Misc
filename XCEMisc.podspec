@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target     = '8.0'
   s.requires_arc              = true
   
+  s.framework                 = 'UIKit'
+  
   s.license                   = { :type => 'MIT', :file => 'LICENSE' }
   s.author                    = { 'Maxim Khatskevich' => 'maxim@khatskevi.ch' }
 
