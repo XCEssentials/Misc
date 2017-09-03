@@ -24,28 +24,8 @@
  
  */
 
-import UIKit
-
-//===
-
+public
 protocol ModelDependable
 {
     associatedtype Model
-}
-
-//===
-
-protocol ModelDependableViewCtrl: ModelDependable
-{
-    associatedtype View: UIView, ModelDependable // where View.Model == Self.Model
-}
-
-//===
-
-extension ViewCtrl where Self: UIViewController
-{
-    var customView: View!
-    {
-        return view as! View
-    }
 }

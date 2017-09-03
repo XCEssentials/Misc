@@ -25,20 +25,12 @@
  */
 
 /**
- Allows to take any value and quickly wrap into optional to make it suitable for standard map/flatMap chainable API.
+ Allows to wrap any non-optional value into optional to make it suitable for standard map/flatMap chainable API.
  */
 public
 func take<T>(_ value: T) -> T?
 {
     return value
-}
-
-//===
-
-public
-func take<T>(_ valueGetter: () throws -> T) rethrows -> T?
-{
-    return try valueGetter()
 }
 
 //===

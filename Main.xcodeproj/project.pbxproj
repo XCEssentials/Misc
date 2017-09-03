@@ -11,7 +11,8 @@
 		229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590A09F3D3E41F7A69D1907 /* Must.swift */; };
 		33B9DBB526C45F56742FF0D8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C605DF3384A24D7E8A429 /* Main.swift */; };
 		4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */; };
-		5BD13A18B498205A2E706A18 /* ModelDependable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3A7DCCE4D34EE6FA6D45B /* ModelDependable.swift */; };
+		5BD13A18B498205A2E706A18 /* ModelDependableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */; };
+		942F3BBD1F5C7659005450D3 /* ModelDependable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F3BBC1F5C7659005450D3 /* ModelDependable.swift */; };
 		AE821F710618A1CE1B6644D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */; };
 		EC3B06DB4B9D1FB012542830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -51,9 +52,10 @@
 
 /* Begin PBXFileReference section */
 		054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BetterChaining.swift; sourceTree = "<group>"; };
-		5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85B3A7DCCE4D34EE6FA6D45B /* ModelDependable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDependable.swift; sourceTree = "<group>"; };
+		5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fwk.framework; path = XCEMisc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDependableViewCtrl.swift; sourceTree = "<group>"; };
 		8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		942F3BBC1F5C7659005450D3 /* ModelDependable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDependable.swift; sourceTree = "<group>"; };
 		A49C605DF3384A24D7E8A429 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		ACF71B310CEEF7340B1EB396 /* Stick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
 		EC7C3BC058A0719E822F3974 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +95,6 @@
 			children = (
 				A49C605DF3384A24D7E8A429 /* Main.swift */,
 			);
-			name = Tests;
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -101,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = "$local";
+			name = $local;
 			sourceTree = "<group>";
 		};
 		81FFCB671182DCE6A4B5EC4B /* Products */ = {
@@ -126,11 +127,11 @@
 			isa = PBXGroup;
 			children = (
 				054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */,
-				85B3A7DCCE4D34EE6FA6D45B /* ModelDependable.swift */,
+				942F3BBC1F5C7659005450D3 /* ModelDependable.swift */,
+				85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */,
 				F590A09F3D3E41F7A69D1907 /* Must.swift */,
 				ACF71B310CEEF7340B1EB396 /* Stick.swift */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -225,7 +226,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -243,7 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */,
-				5BD13A18B498205A2E706A18 /* ModelDependable.swift in Sources */,
+				5BD13A18B498205A2E706A18 /* ModelDependableViewCtrl.swift in Sources */,
+				942F3BBD1F5C7659005450D3 /* ModelDependable.swift in Sources */,
 				229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */,
 				110F63637E4B1A2014B84970 /* Stick.swift in Sources */,
 			);

@@ -24,18 +24,31 @@
  
  */
 
-infix operator <|
+import UIKit
 
-/**
- Small helper that helps to write cleaner object configuration code.
- */
-@discardableResult
+//===
+
 public
-func <| <T: AnyObject>(object: T, configure: (T) -> Void) -> T
+protocol ModelDependableViewCtrl: ModelDependable
 {
-    configure(object)
-    
-    //---
-    
-    return object
+    associatedtype View: UIView, ModelDependable // where View.Model == Self.Model
+}
+
+//===
+
+public
+extension ModelDependableViewCtrl where Self: UIViewController
+{
+    var customView: View!
+    {
+        get
+        {
+            return view as! View // swiftlint:disable:this force_cast
+        }
+        
+        set
+        {
+            view = newValue
+        }
+    }
 }
