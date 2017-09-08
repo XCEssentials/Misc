@@ -13,6 +13,7 @@
 		4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */; };
 		5BD13A18B498205A2E706A18 /* ModelDependableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */; };
 		942F3BBD1F5C7659005450D3 /* ModelDependable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F3BBC1F5C7659005450D3 /* ModelDependable.swift */; };
+		94EFBA381F62F09F001A3984 /* ModelConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EFBA371F62F09F001A3984 /* ModelConfigurable.swift */; };
 		AE821F710618A1CE1B6644D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */; };
 		EC3B06DB4B9D1FB012542830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDependableViewCtrl.swift; sourceTree = "<group>"; };
 		8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		942F3BBC1F5C7659005450D3 /* ModelDependable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDependable.swift; sourceTree = "<group>"; };
+		94EFBA371F62F09F001A3984 /* ModelConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelConfigurable.swift; sourceTree = "<group>"; };
 		A49C605DF3384A24D7E8A429 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		ACF71B310CEEF7340B1EB396 /* Stick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
 		EC7C3BC058A0719E822F3974 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 				054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */,
 				942F3BBC1F5C7659005450D3 /* ModelDependable.swift */,
 				85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */,
+				94EFBA371F62F09F001A3984 /* ModelConfigurable.swift */,
 				F590A09F3D3E41F7A69D1907 /* Must.swift */,
 				ACF71B310CEEF7340B1EB396 /* Stick.swift */,
 			);
@@ -244,6 +247,7 @@
 			files = (
 				4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */,
 				5BD13A18B498205A2E706A18 /* ModelDependableViewCtrl.swift in Sources */,
+				94EFBA381F62F09F001A3984 /* ModelConfigurable.swift in Sources */,
 				942F3BBD1F5C7659005450D3 /* ModelDependable.swift in Sources */,
 				229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */,
 				110F63637E4B1A2014B84970 /* Stick.swift in Sources */,
@@ -307,7 +311,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -339,7 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Info/Fwk.plist;
@@ -380,7 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Info/Fwk.plist;
@@ -424,7 +428,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
