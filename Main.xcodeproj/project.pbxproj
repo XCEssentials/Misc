@@ -11,13 +11,10 @@
 		229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590A09F3D3E41F7A69D1907 /* Must.swift */; };
 		33B9DBB526C45F56742FF0D8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C605DF3384A24D7E8A429 /* Main.swift */; };
 		4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */; };
-		5BD13A18B498205A2E706A18 /* ModelDependableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */; };
 		94297F901F7C40D100630D26 /* OptionalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */; };
-		942F3BBD1F5C7659005450D3 /* ModelDependable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F3BBC1F5C7659005450D3 /* ModelDependable.swift */; };
 		94753C4E1F79721F003B32A1 /* OnePixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94753C4D1F79721F003B32A1 /* OnePixel.swift */; };
 		94753C501F79731F003B32A1 /* BoolHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94753C4F1F79731F003B32A1 /* BoolHelpers.swift */; };
 		94C240A71F65FBDC00F22A3C /* MapRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */; };
-		94EFBA381F62F09F001A3984 /* ModelConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EFBA371F62F09F001A3984 /* ModelConfigurable.swift */; };
 		AE821F710618A1CE1B6644D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */; };
 		EC3B06DB4B9D1FB012542830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -58,14 +55,11 @@
 /* Begin PBXFileReference section */
 		054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BetterChaining.swift; sourceTree = "<group>"; };
 		5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fwk.framework; path = XCEMisc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelDependableViewCtrl.swift; sourceTree = "<group>"; };
 		8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalHelpers.swift; sourceTree = "<group>"; };
-		942F3BBC1F5C7659005450D3 /* ModelDependable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDependable.swift; sourceTree = "<group>"; };
 		94753C4D1F79721F003B32A1 /* OnePixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePixel.swift; sourceTree = "<group>"; };
 		94753C4F1F79731F003B32A1 /* BoolHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolHelpers.swift; sourceTree = "<group>"; };
 		94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRawRepresentable.swift; sourceTree = "<group>"; };
-		94EFBA371F62F09F001A3984 /* ModelConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelConfigurable.swift; sourceTree = "<group>"; };
 		A49C605DF3384A24D7E8A429 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		ACF71B310CEEF7340B1EB396 /* Stick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
 		EC7C3BC058A0719E822F3974 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,9 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */,
-				942F3BBC1F5C7659005450D3 /* ModelDependable.swift */,
-				85B3A7DCCE4D34EE6FA6D45B /* ModelDependableViewCtrl.swift */,
-				94EFBA371F62F09F001A3984 /* ModelConfigurable.swift */,
 				94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */,
 				F590A09F3D3E41F7A69D1907 /* Must.swift */,
 				ACF71B310CEEF7340B1EB396 /* Stick.swift */,
@@ -259,10 +250,7 @@
 			files = (
 				94753C501F79731F003B32A1 /* BoolHelpers.swift in Sources */,
 				4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */,
-				5BD13A18B498205A2E706A18 /* ModelDependableViewCtrl.swift in Sources */,
 				94C240A71F65FBDC00F22A3C /* MapRawRepresentable.swift in Sources */,
-				94EFBA381F62F09F001A3984 /* ModelConfigurable.swift in Sources */,
-				942F3BBD1F5C7659005450D3 /* ModelDependable.swift in Sources */,
 				94753C4E1F79721F003B32A1 /* OnePixel.swift in Sources */,
 				94297F901F7C40D100630D26 /* OptionalHelpers.swift in Sources */,
 				229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */,
