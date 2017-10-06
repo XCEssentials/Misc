@@ -12,6 +12,7 @@
 		33B9DBB526C45F56742FF0D8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C605DF3384A24D7E8A429 /* Main.swift */; };
 		4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */; };
 		94297F901F7C40D100630D26 /* OptionalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */; };
+		942C3BDF1F880672002B04D6 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C3BDE1F880672002B04D6 /* Proxy.swift */; };
 		94753C4E1F79721F003B32A1 /* OnePixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94753C4D1F79721F003B32A1 /* OnePixel.swift */; };
 		94753C501F79731F003B32A1 /* BoolHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94753C4F1F79731F003B32A1 /* BoolHelpers.swift */; };
 		94C240A71F65FBDC00F22A3C /* MapRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */; };
@@ -57,6 +58,7 @@
 		5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fwk.framework; path = XCEMisc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalHelpers.swift; sourceTree = "<group>"; };
+		942C3BDE1F880672002B04D6 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 		94753C4D1F79721F003B32A1 /* OnePixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePixel.swift; sourceTree = "<group>"; };
 		94753C4F1F79731F003B32A1 /* BoolHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolHelpers.swift; sourceTree = "<group>"; };
 		94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRawRepresentable.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				94753C4D1F79721F003B32A1 /* OnePixel.swift */,
 				94753C4F1F79731F003B32A1 /* BoolHelpers.swift */,
 				94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */,
+				942C3BDE1F880672002B04D6 /* Proxy.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942C3BDF1F880672002B04D6 /* Proxy.swift in Sources */,
 				94753C501F79731F003B32A1 /* BoolHelpers.swift in Sources */,
 				4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */,
 				94C240A71F65FBDC00F22A3C /* MapRawRepresentable.swift in Sources */,
