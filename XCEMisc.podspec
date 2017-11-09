@@ -11,16 +11,15 @@ Pod::Spec.new do |s|
 
   s.name                      = companyPrefix + projName
   s.summary                   = projSummary
-  s.version                   = '1.1.1'
+  s.version                   = '1.2.0'
   s.homepage                  = companyGitHubPage + '/' + projName
   
   s.source                    = { :git => companyGitHubAccount + '/' + projName + '.git', :tag => s.version }
   s.source_files              = 'Sources/**/*.swift'
 
+  s.osx.deployment_target     = '10.11'
   s.ios.deployment_target     = '8.0'
   s.requires_arc              = true
-  
-  s.framework                 = 'UIKit'
   
   s.license                   = { :type => 'MIT', :file => 'LICENSE' }
   s.author                    = { 'Maxim Khatskevich' => 'maxim@khatskevi.ch' }
