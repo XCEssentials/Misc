@@ -24,7 +24,7 @@
  
  */
 
-infix operator <|
+infix operator <| : LogicalConjunctionPrecedence
 
 /**
  Small helper that helps to write cleaner object configuration code.
@@ -39,3 +39,7 @@ func <| <T: AnyObject>(object: T, configure: (T) -> Void) -> T
     
     return object
 }
+
+// where T: NilInitializable
+// where T: class
+// where T: struct -->> var inout
