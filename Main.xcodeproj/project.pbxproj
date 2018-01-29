@@ -54,7 +54,7 @@
 
 /* Begin PBXFileReference section */
 		054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BetterChaining.swift; sourceTree = "<group>"; };
-		5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fwk.framework; path = XCEMisc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA0D25F1D65FA8BD7FD8ECF /* XCEMisc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCEMisc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8953C5ADCC6A94FCB8EBB6DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalHelpers.swift; sourceTree = "<group>"; };
 		942C3BDE1F880672002B04D6 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		81FFCB671182DCE6A4B5EC4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */,
+				5BA0D25F1D65FA8BD7FD8ECF /* XCEMisc.framework */,
 				EC7C3BC058A0719E822F3974 /* Tests.xctest */,
 			);
 			name = Products;
@@ -169,7 +169,7 @@
 			);
 			name = Fwk;
 			productName = Fwk;
-			productReference = 5BA0D25F1D65FA8BD7FD8ECF /* Fwk.framework */;
+			productReference = 5BA0D25F1D65FA8BD7FD8ECF /* XCEMisc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		57FB64969C7E719D6A2042A5 /* Tests */ = {
@@ -358,7 +358,7 @@
 				PRODUCT_NAME = XCEMisc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -400,7 +400,7 @@
 				PRODUCT_NAME = XCEMisc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
