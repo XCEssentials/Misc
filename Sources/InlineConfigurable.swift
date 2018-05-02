@@ -24,22 +24,39 @@
  
  */
 
-infix operator <| : LogicalConjunctionPrecedence
-
-/**
- Small helper that helps to write cleaner object configuration code.
- */
-@discardableResult
 public
-func <| <T: AnyObject>(object: T, configure: (T) -> Void) -> T
+protocol InlineConfigurable: AnyObject { }
+
+//---
+
+public
+extension InlineConfigurable
 {
-    configure(object)
-    
-    //---
-    
-    return object
+    @discardableResult
+    func configure(with configurationHandler: (Self) -> Void) -> Self
+    {
+        configurationHandler(self)
+        
+        //---
+        
+        return self
+    }
 }
 
-// where T: NilInitializable
-// where T: class
-// where T: struct -->> var inout
+//---
+
+//infix operator <| : LogicalConjunctionPrecedence
+//
+///**
+// Small helper that helps to write cleaner object configuration code.
+// */
+//@discardableResult
+//public
+//func <| <T: InlineConfigurable>(object: T, handler: (T) -> Void) -> T
+//{
+//    object.configure(with: handler)
+//
+//    //---
+//
+//    return object
+//}
