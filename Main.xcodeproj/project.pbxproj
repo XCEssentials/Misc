@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110F63637E4B1A2014B84970 /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF71B310CEEF7340B1EB396 /* Stick.swift */; };
+		110F63637E4B1A2014B84970 /* InlineConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF71B310CEEF7340B1EB396 /* InlineConfigurable.swift */; };
 		229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590A09F3D3E41F7A69D1907 /* Must.swift */; };
 		33B9DBB526C45F56742FF0D8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C605DF3384A24D7E8A429 /* Main.swift */; };
 		4787EE8D3569C5200D2DB003 /* BetterChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */; };
@@ -61,7 +61,7 @@
 		94753C4F1F79731F003B32A1 /* BoolHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolHelpers.swift; sourceTree = "<group>"; };
 		94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRawRepresentable.swift; sourceTree = "<group>"; };
 		A49C605DF3384A24D7E8A429 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		ACF71B310CEEF7340B1EB396 /* Stick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
+		ACF71B310CEEF7340B1EB396 /* InlineConfigurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineConfigurable.swift; sourceTree = "<group>"; };
 		EC7C3BC058A0719E822F3974 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F590A09F3D3E41F7A69D1907 /* Must.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Must.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,7 +133,7 @@
 				054516A2F0E195C2EBE2BA64 /* BetterChaining.swift */,
 				94C240A61F65FBDC00F22A3C /* MapRawRepresentable.swift */,
 				F590A09F3D3E41F7A69D1907 /* Must.swift */,
-				ACF71B310CEEF7340B1EB396 /* Stick.swift */,
+				ACF71B310CEEF7340B1EB396 /* InlineConfigurable.swift */,
 				94753C4F1F79731F003B32A1 /* BoolHelpers.swift */,
 				94297F8F1F7C40D100630D26 /* OptionalHelpers.swift */,
 				942C3BDE1F880672002B04D6 /* Proxy.swift */,
@@ -254,7 +254,7 @@
 				94C240A71F65FBDC00F22A3C /* MapRawRepresentable.swift in Sources */,
 				94297F901F7C40D100630D26 /* OptionalHelpers.swift in Sources */,
 				229E572DC7A4F6AB39D36E80 /* Must.swift in Sources */,
-				110F63637E4B1A2014B84970 /* Stick.swift in Sources */,
+				110F63637E4B1A2014B84970 /* InlineConfigurable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -347,7 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Info/Fwk.plist;
@@ -388,7 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Info/Fwk.plist;
@@ -432,7 +432,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
