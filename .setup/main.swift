@@ -34,7 +34,7 @@ let company = (
 let project = (
     name: remoteRepo.name,
     summary: "Little helpers for Swift development",
-    copyrightYear: 2017
+    copyrightYear: 2016
 )
 
 let productName = company.prefix + project.name

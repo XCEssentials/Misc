@@ -28,4 +28,4 @@ public
 let YES = true
 
 public
-let NO = false //swiftlint:disable:this identifier_name
+let NO = false
